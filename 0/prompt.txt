@@ -1,0 +1,7 @@
+<environment_context>
+  <cwd>C:\Users\USER\Documents\Github\neathack-test</cwd>
+  <shell>powershell</shell>
+  <current_date>2026-10-10</current_date>
+  <timezone>Africa/Lagos</timezone>
+  <filesystem><workspace_roots><root>C:\Users\USER\Documents\Github\neathack-test</root><root>C:\Users\USER\.codex\visualizations\2026\10\10\01a1249c-dbd4-78f3-bf3b-ab846570d366</root></workspace_roots><permission_profile type="disabled"><file_system type="unrestricted" /></permission_profile></filesystem>
+</environment_context>
