@@ -1,0 +1,21 @@
+Set up a minimal TypeScript test project to verify my neatlogs integration for the neatHack 2026 hackathon.
+
+Follow the official neatlogs documentation: [https://neatlogs.com/hackathon/neatlogs-setup-guide.html](https://neatlogs.com/hackathon/neatlogs-setup-guide.html)
+
+Requirements:
+
+1. Use TypeScript, Node.js, and the official neatlogs SDK.
+2. Install the required dependencies.
+3. Configure the application to read NEATLOGS_API_KEY from a local .env file without printing or exposing its value.
+4. Make sure .env and other secret files are excluded from Git.
+5. Create a minimal AI workflow that generates a neatlogs trace.
+6. Add a command to run the test workflow.
+7. Run the workflow and verify that the trace was successfully delivered.
+8. Explain what was created and how to run the test again.
+
+Important:
+
+- This is a temporary integration test, not my actual hackathon project.
+- Do not hardcode credentials.
+- If an additional AI provider API key is needed, ask me before proceeding.
+- Don't claim a trace was delivered unless you can verify it.
