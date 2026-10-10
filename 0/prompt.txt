@@ -1,0 +1,3 @@
+<send_user_message_question_reply>
+[{"questionItemId":"[\"request_user_input_async\",\"call_8NlTtyNPYdYZQWHHwZ9y0IaJ\",0]","question":"Please add `OPENROUTER_API_KEY=...` to `C:\\Users\\USER\\Documents\\Github\\neathack-test\\.env`, then tell me when it’s ready. Please don’t paste the key in chat.","answer":"I’ll add it now"}]
+</send_user_message_question_reply>
