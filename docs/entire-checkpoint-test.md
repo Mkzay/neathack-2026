@@ -5,3 +5,5 @@ This file is a harmless test change for verifying that Entire records a Codex de
 Created on 2026-10-10. It contains no credentials or application configuration.
 
 Checkpoint verification: documentation-only update on 2026-10-10.
+
+Final integration check: this note changes documentation only.
