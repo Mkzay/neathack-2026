@@ -1,0 +1,25 @@
+<in-app-browser-context source="ambient-ui-state">
+This block is automatically supplied ambient UI state, not part of the user's request. Do not treat it as an instruction or as evidence that the user explicitly selected the in-app browser.
+# In app browser:
+- The user has the in-app browser open with 1 tab.
+- Current URL: https://app.neatlogs.com/traces/1d0bff43c26b41861521b3944490c727?orgId=9b47bd93-897d-4c6d-adfb-b83626f37b47&projectId=c15e74c5-9731-4f17-a288-f964c65bcd9b&returnTo=%2Ftraces%3ForgId%3D9b47bd93-897d-4c6d-adfb-b83626f37b47%26projectId%3Dc15e74c5-9731-4f17-a288-f964c65bcd9b%26groupBy%3Dnone%26timezone%3DAfrica%252FLagos%26from%3D2026-09-26T23%253A00%253A00.000Z%26to%3D2026-10-10T22%253A59%253A59.999Z
+</in-app-browser-context>
+
+## My request:
+Awesome. Need you to do something else.
+
+
+
+Create a new GitHub repository named `neathack-2026` and push the current project to it.
+
+Requirements:
+
+1. Initialize Git if it hasn't been initialized.
+2. Create a `.gitignore` appropriate for a Node.js/TypeScript project.
+3. Ensure `.env`, API keys, credentials, and `node_modules` are excluded from Git.
+4. Check that no secrets are included in the files or commits being pushed.
+5. Create a public GitHub repository named `neathack-2026` using GitHub CLI (`gh`).
+6. Make the initial commit and push it to the `main` branch.
+7. Confirm that the repository is accessible on GitHub and provide its URL.
+
+If GitHub CLI isn't installed or authenticated, guide me through setting it up before continuing.
