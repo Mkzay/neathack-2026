@@ -1,11 +1,3 @@
-Finish the Entire checkpoint test. Make a small edit to `docs/entire-checkpoint-test.md`, verify Entire created a new checkpoint, check it for secrets, then commit and push to the existing `main` branch. Give me the checkpoint ID and GitHub link. Do not claim success without verifying both.
-
----
-
-So all set up?
-
----
-
 Let's perform one final verification of our Entire integration for neatHack 2026.
 
 Make a small, harmless change to the repository, such as adding a short comment or updating a test documentation file.
