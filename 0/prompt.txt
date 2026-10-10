@@ -1,0 +1,3 @@
+<send_user_message_question_reply>
+[{"questionItemId":"[\"request_user_input_async\",\"call_919EobLRk1QbfSnbDdHPJEEW\",0]","question":"The guide’s TypeScript example calls OpenAI. Do you have an OpenAI API key for the test? Please place it in this project’s local `.env` as `OPENAI_API_KEY=...` and tell me when it’s ready. You can also name a different AI provider you prefer; please don’t paste the key in chat.","answer":"I'd use openrouter"}]
+</send_user_message_question_reply>
