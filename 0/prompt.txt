@@ -1,0 +1,23 @@
+Finish the Entire checkpoint test. Make a small edit to `docs/entire-checkpoint-test.md`, verify Entire created a new checkpoint, check it for secrets, then commit and push to the existing `main` branch. Give me the checkpoint ID and GitHub link. Do not claim success without verifying both.
+
+---
+
+So all set up?
+
+---
+
+Let's perform one final verification of our Entire integration for neatHack 2026.
+
+Make a small, harmless change to the repository, such as adding a short comment or updating a test documentation file.
+
+Then:
+
+1. Commit the change.
+2. Verify that Entire automatically captures a new checkpoint from this Codex desktop session.
+3. Push the changes and checkpoint references to GitHub.
+4. Confirm that the new checkpoint is accessible.
+5. Provide the checkpoint ID and link.
+
+Do not modify application functionality, expose credentials, or overwrite existing checkpoints.
+
+If automatic checkpoint creation fails, explain exactly what failed rather than claiming success.
