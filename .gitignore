@@ -3,7 +3,10 @@
 !.env.example
 node_modules/
 dist/
+.next/
+*.tsbuildinfo
 *.log
+reports/
 .npmrc
 .yarnrc.yml
 *.pem

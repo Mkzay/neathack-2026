@@ -1,9 +1,20 @@
 {
-  "name": "neathack-test",
+  "name": "impactgraph",
   "version": "1.0.0",
-  "description": "Temporary Neatlogs tracing integration test",
+  "description": "ImpactGraph local architecture investigation",
   "scripts": {
     "test:trace": "node --env-file=.env --import tsx src/trace.ts",
+    "test:provider": "node --import tsx --test src/openrouter-provider.test.ts",
+    "test:tool-calling": "node --env-file=.env --import tsx src/tool-calling.integration.ts",
+    "test:architecture": "node --import tsx --test src/architecture/analyzer.test.ts",
+    "test:phase2": "node --import tsx --test src/agent/phase2.test.ts",
+    "test:real-impact": "node --env-file=.env --import tsx src/architecture/impact.integration.ts",
+    "investigate": "node --env-file=.env --import tsx src/agent/cli.ts",
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1",
+    "lint": "eslint app src/web src/ui",
+    "test:web": "node --import tsx --test src/web/*.test.ts",
     "check": "tsc --noEmit",
     "doctor:local": "neatlogs doctor --local --json",
     "doctor:probe": "node --env-file=.env ./node_modules/neatlogs/dist/cli.mjs doctor --probe --json"
@@ -14,11 +25,23 @@
   "type": "module",
   "dependencies": {
     "@openrouter/agent": "^0.11.0",
-    "neatlogs": "^1.1.28"
+    "@openrouter/sdk": "^1.4.25",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@xyflow/react": "^12.12.0",
+    "neatlogs": "^1.1.28",
+    "next": "^16.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.0",
+    "postcss": "^8.5.29",
     "tsx": "^4.23.15",
-    "typescript": "^7.0.2"
+    "typescript": "^6.0.3"
   }
 }
